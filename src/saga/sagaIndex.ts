@@ -10,7 +10,7 @@ function* getVideoList(action : any){
     }catch(e){
         yield put(fetchVideosFailure());
     }
-};
+}
 
 export default function* watcherSaga(){
     yield all([

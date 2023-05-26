@@ -5,9 +5,7 @@ type pages = string | number;
 export default class api {
     baseURL = "https://internship-service.onrender.com";
 
-    constructor(){
-        this.baseURL = this.baseURL;
-    }
+    constructor(){}
 
     getVideos = async (page : pages) => {
         try{
