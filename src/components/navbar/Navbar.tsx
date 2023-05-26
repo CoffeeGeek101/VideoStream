@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className='w-full h-auto p-4 md:py-7 md:px-10 flex flex-row justify-between items-center'>
+    <div className='w-full h-auto p-4 md:py-7 md:px-10 flex flex-row justify-between items-center z-10'>
         <div className='relative'>
             <h1 
             style={{textShadow: '0 0 15px rgba(255, 255, 255, 0.376)'}}
